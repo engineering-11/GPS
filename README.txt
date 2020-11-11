@@ -1,6 +1,6 @@
 The script that acquires GPS data is named "GPS.py". Follow the steps below to run the script.
 
-1. Locate your GPS sensor, the blue cable that connects USB to four female connectors.
+1. Locate your GPS sensor, and the blue cable that connects USB to four female connectors.
 2. Optionally, locate the skinny pink cable and the long black cable with a chunky rectangular end.
 3. Connect the blue USB cable to the GPS sensor: red->3.3V, white->TX, green->RX, black->GND.
 4. Optionally, for better signal attach the skinny pink cable to the GPS sensor by snapping on the small end near where it says "breakout v3" on the sensor.
