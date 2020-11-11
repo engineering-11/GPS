@@ -1,6 +1,6 @@
 The script that acquires GPS data is named "GPS.py". Follow the steps below to run the script.
 
-1. Locate your GPS sensor, and the blue cable that connects USB to four female connectors.
+1. Locate your GPS sensor and the blue cable that connects USB to four female connectors.
 2. Optionally, locate the skinny pink cable and the long black cable with a chunky rectangular end.
 3. Connect the blue USB cable to the GPS sensor: red->3.3V, white->TX, green->RX, black->GND.
 4. Optionally, for better signal attach the skinny pink cable to the GPS sensor by snapping on the small end near where it says "breakout v3" on the sensor.
@@ -10,4 +10,4 @@ The script that acquires GPS data is named "GPS.py". Follow the steps below to r
 8. Now run the script by typing [python3] [name_of_script] [datalog_frequency_in_seconds (minimum 1)] [optional_csv_filename]".
 8a. An example could be "python3 GPS.py 1". This runs the script "GPS.py" and prints data every 1 second.
 8b. Another example could be "python3 GPS.py 3 gps_data.csv". This runs the script "GPS.py", and every 3 seconds it both prints GPS data to the screen and logs an entry in "gps_data.csv". If "gps_data.csv" already exists, it appends to the file. Otherwise it creates a new file.
-9. Note that valid GPS data will only be printed and logged if the GPS sensor has acquired a fix. It may take a few minutes to acquire a fix. For best results, do the optional step 2 and step 4. Also, it helps if your sensor has a direct line of sight to the sky.
+9. Note that valid GPS data will only be printed and logged if the GPS sensor has acquired a fix. It may take a few minutes to acquire a fix. For best results, do the optional steps 2, 4 and 5. Also, it helps if your sensor has a direct line of sight to the sky.
